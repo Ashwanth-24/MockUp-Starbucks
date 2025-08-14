@@ -1,0 +1,368 @@
+
+
+    .topnav_bar{
+            position: sticky;
+            align-items: center;
+            background-color: white;
+            z-index: 2;
+            top: 0px;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            box-shadow: 0 0 2px #00000012,
+            0 2px 2px #0000000f, 0 1px 3px #0000001a;        
+        }
+        .topnav_menu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+            width: 560px;
+            margin-left: 125px;
+            font-family: "Ancizar Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight:weight;
+            font-style: normal;
+            cursor: pointer;
+        }
+        #gift{
+            border-bottom: 2px solid #006241; 
+            color: #00754a;
+            
+        }
+        #search_img{
+            position: absolute;
+            padding-left: 20px;
+            padding-top: 7px;
+            cursor: pointer;
+        }            
+        #search{
+            width: 280px;
+            height: 35px;
+            border-radius: 25px;
+            border: none;
+            padding-left: 60px;
+            box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+        }
+        .topnav_login{
+            align-content: center;
+            cursor: pointer;
+            margin-right: 120px;
+        }
+
+    .page_location{
+            padding-left: 80px;
+            font-family:  SoDoSans_Light, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #000;
+            cursor: pointer;
+        }
+
+    .green_baner{
+            position: relative;
+            top: 0px;
+            height: 50px;
+            background-color: #1e3932;
+            align-content: center;
+            flex-wrap: wrap;                    
+        }
+
+    .priority_nav{
+            height: 60px;
+            background-color: #f2f0eb;
+        }
+        .prio_nav_icons{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 90px;
+            margin-right: 110px;
+        }
+        #nav-icon{
+            cursor: pointer;
+        }
+        .priorities{
+            position: absolute;
+            color: #00000094;
+            font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 60px;
+            width: 600px;
+            cursor: pointer;            
+        }
+
+    .featured{
+            height: 660px;
+        }
+        .anytime{
+            height: 300px;            
+        }
+        .anytime_title{
+            height: 50px;
+            padding-left: 108px;
+            font-size:19px;
+            font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+        }
+        .anytime_cards{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            margin-left: 105px;
+            margin-right: 100px;
+        }
+
+        .any_card-1
+            #any_card-1_img{
+            position: absolute;
+            margin-top: 20px;
+            border-radius: 10px;
+            filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, .07)) 
+                    drop-shadow(0px 1px 18px rgba(0, 0, 0, .06)) 
+                    drop-shadow(0px 3px 5px rgba(0, 0, 0, .1));
+            cursor: pointer;
+            }
+            .any_card-1_bg{
+            border-radius: 8px;            
+            height: 180px;
+            width: 300px;
+            margin-left: 40px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 2px #00000012,
+            0 2px 2px #0000000f, 0 1px 3px #0000001a;
+            }
+            .any_card-1_text{
+                position: absolute;
+                margin-left: 120px;
+                width: 180px;
+                font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+                color: #00000094;                
+            }
+            #any_card_btn{
+                margin-top: 120px;
+                margin-left: 120px;
+                width: 100px;
+                height: 35px;
+                border: none;
+                border-radius: 30px;
+                color: #fff;
+                background-color: #00754a;
+                font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+                font-size: 12px;
+                box-shadow: 0 4px 15px #a3a3a3ad;
+                cursor: pointer;
+            }
+
+        .any_card-2
+            #any_card-2_img{
+            position: absolute;
+            margin-top: 20px;
+            filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, .07)) 
+                    drop-shadow(0px 1px 18px rgba(0, 0, 0, .06)) 
+                    drop-shadow(0px 3px 5px rgba(0, 0, 0, .1));
+            cursor: pointer;
+            
+            }
+            .any_card-2_bg{            
+            border-radius: 8px;            
+            height: 180px;
+            width: 300px;
+            margin-left: 40px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 2px #00000012,
+            0 2px 2px #0000000f, 0 1px 3px #0000001a;
+            }
+            .any_card-2_text{
+                position: absolute;
+                margin-left: 120px;
+                width: 180px;
+                font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+                color: #00000094;
+            }
+            
+        .any_card-3
+            #any_card-3_img{
+            position: absolute;
+            margin-top: 20px;
+            width: 140px;
+            border-radius: 10px;
+            filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, .07)) 
+                    drop-shadow(0px 1px 18px rgba(0, 0, 0, .06)) 
+                    drop-shadow(0px 3px 5px rgba(0, 0, 0, .1));
+            cursor: pointer;
+            }
+            .any_card-3_bg{
+            border-radius: 8px;            
+            height: 180px;
+            width: 300px;
+            margin-left: 40px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 2px #00000012,
+            0 2px 2px #0000000f, 0 1px 3px #0000001a;
+            }
+            .any_card-3_text{
+                position: absolute;
+                margin-left: 120px;
+                width: 180px;
+                font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+                color: #00000094;
+            }
+
+        .cong_title{
+            height: 50px;
+            padding-left: 108px;
+            font-size:19px;
+            font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+        }
+        .cong_cards{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            margin-left: 105px;
+            margin-right: 100px;
+        }
+        .cong_card-1
+             #cong_card-1_img{
+            position: absolute;
+            margin-top: 20px;
+            border-radius: 10px;
+            filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, .07)) 
+                    drop-shadow(0px 1px 18px rgba(0, 0, 0, .06)) 
+                    drop-shadow(0px 3px 5px rgba(0, 0, 0, .1));
+            cursor: pointer;
+            }
+            .cong_card-1_bg{
+            border-radius: 8px;            
+            height: 180px;
+            width: 300px;
+            margin-left: 40px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 2px #00000012,
+            0 2px 2px #0000000f, 0 1px 3px #0000001a;
+            }
+            .cong_card-1_text{
+                position: absolute;
+                margin-left: 120px;
+                width: 180px;
+                font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+                color: #00000094;                
+            }
+            #cong_card_btn{
+                margin-top: 120px;
+                margin-left: 120px;
+                width: 100px;
+                height: 35px;
+                border: none;
+                border-radius: 30px;
+                color: #fff;
+                background-color: #00754a;
+                font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+                font-size: 12px;
+                box-shadow: 0 4px 15px #a3a3a3ad;
+                cursor: pointer;
+            }
+        
+    .information{
+            background-color: #0e382c;
+            position: relative;
+            height: 1000px;
+            padding: 120px 250px 0px 120px;
+        }
+        .info_about_company{            
+            display: flex;
+            justify-content: space-between;
+
+        }
+        #info_logo_img{
+            margin-top: 25px;
+        }
+        .info_about-us{            
+            font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+            color: #fff;
+            line-height: 30px;
+            cursor: pointer;
+        }
+        .info_responsibility{            
+            font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+            color: #fff;
+            width: 150px;
+            line-height: 30px;
+            cursor: pointer;
+        }
+        .info_q_l{            
+            font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+            color: #fff;
+            width: 170px;
+            line-height: 30px;
+            cursor: pointer;
+        }
+        .info_legal{            
+            font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+            color: #fff;
+            line-height: 30px;
+            cursor: pointer;            
+        }
+        .info_socical_media{            
+            position: absolute;
+        }
+        .sm_text{          
+            color: #fff;
+            margin-right: 20px;
+            height: 35px;
+            font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+        }
+        .sc_img{            
+            margin-right: 10px;
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+        .info_app_store{
+            position: absolute;
+            margin-top: 15px;
+            margin-right: 900px;
+            margin-left: 180px;
+            cursor: pointer;            
+        }
+        .info_fotter{
+            border-top: 0.5px solid #fff ;
+            position: relative;
+            top:250px;
+            width: 1250px;            
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .info_footer_left{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 500px;
+            font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+            cursor: pointer;
+        }
+        .info_footer_right{
+            font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+
+
+
+    
+
+
+
+
